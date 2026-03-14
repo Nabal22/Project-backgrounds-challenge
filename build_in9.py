@@ -32,6 +32,8 @@ for split in ["train", "val"]:
         if str(idx) not in idx_to_in9:
             continue
         super_class = idx_to_in9[str(idx)]
+        if super_class == -1:
+            continue
         src = os.path.join(split_dir, synset)
         dst = os.path.join(OUT_DIR, split, str(super_class))
         os.makedirs(dst, exist_ok=True)
