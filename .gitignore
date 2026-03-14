@@ -1,1 +1,11 @@
 */__pycache__
+/imagenet-mini
+/in9
+/backgrounds_challenge_data*
+*.tar.gz
+*.pt
+*.pth
+*.ckpt
+.DS_Store
+/archive.zip
+/bg_challenge/
