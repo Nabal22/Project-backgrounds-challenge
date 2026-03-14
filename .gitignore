@@ -8,4 +8,4 @@
 *.ckpt
 .DS_Store
 /archive.zip
-/backgrounds_challenge_data/
+/bg_challenge/
